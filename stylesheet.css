@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: #d1d0d0;
+}
+
+#navbar-container{
+    background-color: rgb(181, 177, 177);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     float: none;
+    box-shadow: 0 3px 4px 1px rgba(0, 0, 0,.2);
+}
+
+#navbar-container a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    padding: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    width: 10%;
+    transition: 0.3s;
+    padding-bottom: 40px;
+}
+
+#navbar-container a:hover{
+    color: rgb(17, 142, 210);
+    background-color: rgb(209, 208, 208);
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.headers{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.headers img{
+    border-radius: 70%;
+    width: 350px;
+    height: 350px;
+    transition: 0.3s;
+}
+
+.headers img:hover{
+    width: 380px;
+    height: 380px;
+}
+
+.profile-container{
+    text-align: center;
+}
+
+.fade-in{
+    opacity: 1;
+    animation-name: fadeIns;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#typewritter h2{
+    padding-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3s steps(100, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+@keyframes fadeIns {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bio-container{
+    text-align: center;
+}
+
+.headers h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.headers h2 span{
+    background-color: rgb(0, 0, 0);
+}
+
+.headers2{
+    padding-bottom: 150px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.headers2 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    z-index: -1;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.bio-about-me{
+    display: block;
+}
+
+.bio-about-me h3{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+
+.headers2 img{
+    padding-top: 45px;
+    width: 40%;
+    height: 40%;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(181, 177, 177);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    float: none;
+}
+
+.footer img{
+    display: flexbox;
+    width: 80px;
+    height: 80px;
+    transition: 0.3s;
+}
+
+.footer a{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer img:hover{
+    position: relative;
+    width: 85px;
+    height: 85px;
+}
+
+.photo-container{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+.photo-container img{
+    width: 905px;
+    height: 506px;
+    transition: 0.3s;
+}
+
+
+.photo-position h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+
+.photo-container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+
+.photo-position{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.photo-container-2{
+    padding-top: 20px;
+    border-radius: 0;
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.photo-container-2 img{
+    width: 800px;
+    height: 506px;
+    padding-left: 170px;
+    padding-bottom: 100px;
+}
+
+
+.headers-service{
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.headers-service h1{
+    padding-top: 140px;
+    margin-left: 170px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+
+.text-container{
+    padding-left: 170px;
+    padding-top: 200px;
+    text-align: left;
+}
+
+.text-container h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.background-text-container{
+    padding: 20px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.text-container button{
+    background-color: rgb(4, 223, 4);
+    padding: 12px 40px 12px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.text-container a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-container button:hover{
+    background-color: rgb(0, 171, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-container{
+    padding-top: 180px;
+    text-align: center;
+}
+
+.about-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    position: relative;
+    display: inline-block;
+}
+
+.about-container h1:after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+}
+
+.about-container h1:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.about-container h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 250px;
+}
+
+#typewritter-2 h2{
+    padding-top: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(100, end),
+        blink-caret .75s step-end infinite;
+}
+
+.body-container{
+    padding-top: 130px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+  
+.underline-animation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+}
+  
+@keyframes underlineFadeIn {
+    0% {
+      width: 0%;
+      opacity: 0;
+    }
+    100% {
+      width: 50%;
+      opacity: 1;
+    }
+}
+  
+h1 .underline-animation {
+    animation: underlineFadeIn 1s ease-in-out forwards;
+}
+
+.contact-container{
+    padding-top: 100px;
+    flex-wrap:wrap;
+    width: 100%;
+    display: flex;
+}
+
+.contact-container img{
+    padding-left: 380px;
+    width: 190px;
+    height: 180px;
+}
+
+.contact-container p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.contact-container a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+  }
+
+
+.fade-ins {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-ins.fade-ins-visible {
+    opacity: 1;
+}
+
+.centered-header-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+
+.grid-container{
+    display: flexbox;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.grid-item{
+    width: 100%;
+    height: 50%;
+}
+
+.grid-item img{
+    width: 700px;
+    height: 393.75px;
+}
