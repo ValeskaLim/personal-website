@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Container from "./components/Container";
 import About from "./components/About";
+import Project from "./components/Project";
+import Stack from "./components/Stack";
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
           <Header />
           <Profile />
           <About />
+          <Project />
+          <Stack />
         </Container>
       </>
     </div>
