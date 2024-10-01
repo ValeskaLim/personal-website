@@ -4,6 +4,7 @@ import Container from "./components/Container";
 import About from "./components/About";
 import Project from "./components/Project";
 import Stack from "./components/Stack";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <About />
           <Project />
           <Stack />
+          <Footer />
         </Container>
       </>
     </div>
