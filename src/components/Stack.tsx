@@ -1,10 +1,9 @@
 const Stack = () => {
     return (
         <div className="flex flex-col justify-center text-center w-full pt-[7rem] duration-300 md:px-[7rem] dark:duration-300">
-            {/* Stack list */}
             <div className="">
                 <h2 className="font-mono text-3xl pb-4 dark:text-white">My Stacks</h2>
-                <div className="flex flex-wrap gap-2 pt-[1rem] justify-center items-center"> 
+                <div className="flex flex-wrap gap-2 justify-center items-center"> 
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript"/>
                     <img className="max-w-full" 
@@ -33,9 +32,22 @@ const Stack = () => {
                     src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
                 </div>
             </div>
-            {/* Current stack */}
-            <div>
-
+            <div className="pt-[5rem]">
+                <h2 className="font-mono text-3xl pb-4 dark:text-white">Focus Technology Stack</h2>
+                <div className="flex flex-wrap gap-2 justify-center items-center">
+                <img className="max-w-full" 
+                    src="https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/tailwind_css-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/postgresql-%234169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+                </div>
             </div>
         </div>
     );

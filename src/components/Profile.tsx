@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Profiles from "/profile.webp";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Profile = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -80,6 +81,16 @@ const Profile = () => {
                         </svg>
                     </a>
                 </div>
+            </div>
+            <div className="flex flex-row justify-center gap-[1rem] items-center w-full pt-7 duration-300 sm:gap-[3rem] sm:duration-300">
+                <a href="#">
+                    <div className="flex gap-2 p-3 border border-black rounded-[1rem] items-center text-center 
+                    duration-200 hover:scale-[1.02] hover:duration-200 hover:bg-gray-100 dark:border-white  
+                    dark:hover:bg-black">
+                        <h2 className="font-mono dark:text-white">Download my CV</h2>
+                        <MdOutlineFileDownload  className="w-[1.5rem] h-[1.5rem] dark:text-white"/>
+                    </div>
+                </a>
             </div>
         </div>
     );
