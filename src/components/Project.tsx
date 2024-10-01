@@ -2,6 +2,12 @@ import { FaHtml5, FaPython } from "react-icons/fa";
 import { RiTailwindCssFill, RiJavascriptFill, RiReactjsFill, RiJavaFill, RiNodejsFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiExpress, SiTensorflow, SiJupyter, SiCsharp, SiDotnet, SiCss3 } from "react-icons/si";
+import cardImage1 from "/BoboList.webp";
+import cardImage2 from "/Bobsite.webp";
+import cardImage3 from "/999 Stack Mod.webp";
+import cardImage4 from "/LearnBoost.webp";
+import cardImage5 from "/FaceRecognition.webp";
+import cardImage6 from "/MakeMeUpzz.webp";
 
 const Project = () => {
     return (
@@ -14,7 +20,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="max-w-full pb-3">
-                                <img src="/public/BoboList.webp" className="max-w-full max-h-full" alt="Bobo List"/>
+                                <img src={cardImage1} className="max-w-full max-h-full" alt="Bobo List"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">Bobo List</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">Website that provides all mods that i've use in my videos</p>
@@ -30,7 +36,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="pb-3">
-                                <img src="/public/Bobsite.webp" className="aspect-video max-w-full max-h-full" alt="Bobsite"/>
+                                <img src={cardImage2} className="aspect-video max-w-full max-h-full" alt="Bobsite"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">BobSite</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">Personal web that contains information about the developer related to technology, projects developed</p>
@@ -47,7 +53,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="pb-3">
-                                <img src="/public/999 Stack Mod.webp" className="aspect-video max-w-full max-h-full" alt="999 Stack Mod"/>
+                                <img src={cardImage3} className="aspect-video max-w-full max-h-full" alt="999 Stack Mod"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">999 Stack Mod</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">Mods that allow you to stack items up to 999. Built using Fabric</p>
@@ -62,7 +68,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="pb-3">
-                                <img src="/public/LearnBoost.webp" className="aspect-video max-w-full max-h-full" alt="LearnBoost"/>
+                                <img src={cardImage4} className="aspect-video max-w-full max-h-full" alt="LearnBoost"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">LearnBoost</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">A learning website that provides various question banks for college entrance exams</p>
@@ -80,7 +86,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="pb-3">
-                                <img src="/public/FaceRecognition.webp" className="aspect-video max-w-full max-h-full" alt="Face Recognition"/>
+                                <img src={cardImage5} className="aspect-video max-w-full max-h-full" alt="Face Recognition"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">Face Recognition</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">A machine learning model that can detect a person's facial expression from an image</p>
@@ -96,7 +102,7 @@ const Project = () => {
                     <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
                         <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
                             <div className="pb-3">
-                                <img src="/public/MakeMeUpzz.webp" className="aspect-video max-w-full max-h-full" alt="MakeMeUpzz"/>
+                                <img src={cardImage6} className="aspect-video max-w-full max-h-full" alt="MakeMeUpzz"/>
                             </div>
                             <h1 className="text-center items-center text-xl dark:text-white">MakeMeUpzz</h1>
                             <p className="text-center items-center break-words text-sm dark:text-white">web-based application designed for selling makeup and skincare products.</p>
