@@ -4,7 +4,7 @@ const Project = () => {
             <div className="flex justify-center items-center">
                 <h2 className="font-mono text-3xl pb-4 dark:text-white">My Projects</h2>
             </div>
-            <div className="grid grid-cols-1 gap-5 pt-[4rem] duration-200 font-mono sm:grid-cols-2 sm:duration-200 md:grid-cols-3 md:duration-200">
+            <div className="grid grid-cols-1 gap-5 pt-[2rem] duration-200 font-mono sm:grid-cols-2 sm:duration-200 md:grid-cols-3 md:duration-200">
                 <div className="p-4 bg-red-600 w-full h-fit">
                     <div>
                         <div className="bg-blue-600 w-full h-[7rem]">

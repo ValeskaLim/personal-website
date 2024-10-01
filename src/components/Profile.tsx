@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Profiles from "/profile.jpg";
+import Profiles from "/profile.webp";
 
 const Profile = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
