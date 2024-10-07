@@ -8,6 +8,7 @@ import cardImage3 from "/999 Stack Mod.webp";
 import cardImage4 from "/LearnBoost.webp";
 import cardImage5 from "/FaceRecognition.webp";
 import cardImage6 from "/MakeMeUpzz.webp";
+import cardImage7 from "/TelegramBot.webp";
 
 const Project = () => {
     return (
@@ -110,6 +111,20 @@ const Project = () => {
                                 <SiCsharp className="w-[2em] h-[2em] dark:text-white"/>
                                 <SiDotnet className="w-[2em] h-[2em] dark:text-white"/>
                                 <SiCss3 className="w-[2em] h-[2em] dark:text-white"/>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/ValeskaLim/telegram-youtube-bot" target="__blank">
+                    <div className="p-5 w-full h-full relative border border-black rounded-[1rem] duration-200 dark:border-gray-100 dark:hover:bg-black hover:bg-gray-100 hover:duration-200">
+                        <div className="h-fit duration-200 hover:duration-200 hover:scale-[1.01]">
+                            <div className="pb-3">
+                                <img src={cardImage7} className="aspect-video max-w-full max-h-full" alt="Telegram Youtube Bot"/>
+                            </div>
+                            <h1 className="text-center items-center text-xl dark:text-white">Telegram Youtube Bot</h1>
+                            <p className="text-center items-center break-words text-sm dark:text-white">Telegram bot that will send notifications when someone is livestreaming based on youtube channel id.</p>
+                            <div className="flex gap-1 pt-[1rem]">
+                                <FaPython className="w-[2em] h-[2em] dark:text-white"/>
                             </div>
                         </div>
                     </div>

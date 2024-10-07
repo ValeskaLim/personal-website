@@ -17,6 +17,8 @@ const Stack = () => {
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/.net-%23512BD4.svg?style=for-the-badge&logo=.net&logoColor=white" alt=".NET"/>
                     <img className="max-w-full" 
+                    src="https://img.shields.io/badge/express-%2320232a.svg?style=for-the-badge&logo=express&logoColor=%000" alt="Express"/>
+                    <img className="max-w-full" 
                     src="https://img.shields.io/badge/premiere_pro-%239999FF.svg?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Adobe Premiere Pro"/>
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="Adobe Photoshop"/>
@@ -41,6 +43,8 @@ const Stack = () => {
                     src="https://img.shields.io/badge/tailwind_css-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/express-%2320232a.svg?style=for-the-badge&logo=express&logoColor=%000" alt="Express"/>
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
                     <img className="max-w-full" 
