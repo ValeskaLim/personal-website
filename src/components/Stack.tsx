@@ -34,6 +34,8 @@ const Stack = () => {
                     src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
                     <img className="max-w-full" 
                     src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next JS"/>
+                    <img className="max-w-full" 
+                    src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
                 </div>
             </div>
             <div className="pt-[5rem]">
